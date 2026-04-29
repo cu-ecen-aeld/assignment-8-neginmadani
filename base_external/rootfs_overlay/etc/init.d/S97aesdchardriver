@@ -1,0 +1,12 @@
+#!/bin/sh
+
+case "$1" in
+    start)
+        aesdchar_load
+        ;;
+    stop)
+        aesdchar_unload
+        ;;
+esac
+
+exit 0
